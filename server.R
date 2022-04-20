@@ -99,6 +99,21 @@ server <- function(input, output, session) {
   
   # Outputs -----------------------------------------------------------------
 
+  # Side panel
+  output$resumen <- renderReactable({
+    GRUPO_res() |> 
+      mutate(Tipo = case_when(ACTIVA == 1 ~ "Activas", 
+                              CLASE == "s" ~ "Cuantit. Sup.",
+                              CLASE == "n" ~ "Cuanlit. Sup.")) |> 
+      select(Tipo, "Dimensión" = DIM_LAB, "Total" = n) |> 
+      reactable(resizable = TRUE, 
+                groupBy = "Tipo",
+                columns = list(Total = colDef(aggregate = "sum")
+                )
+      )
+        
+  })
+  
   # Panel 1
   output$eig <- renderPlot({
     req(input$RESULT == "eig")
@@ -217,7 +232,8 @@ server <- function(input, output, session) {
                 Priv.Size = paste0(No.Priv.Size, " (", P.Priv.Size, "%)"),
                 No.Priv.Student = sum(n * (SECTOR == "Privado")),
                 P.Priv.Student = round(No.Priv.Student/Cl.Student * 100, 1),
-                Priv.Student = paste0(No.Priv.Student, " (", P.Priv.Student, "%)"),
+                Priv.Student = paste0(format(No.Priv.Student, big.mark = "."), 
+                                      " (", P.Priv.Student, "%)"),
                 No.Asig = sum(cl_p <= 0.5),
                 P.Asig = round(No.Asig/Cl.Size * 100, 1),
                 Asig = paste0(No.Asig, " (", P.Asig, "%)"),

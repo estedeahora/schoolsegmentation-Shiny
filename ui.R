@@ -26,6 +26,9 @@ ui <- fluidPage(
                     #                          lib = "glyphicon"))
                     #           )
                     # )
+        ),
+        fluidRow(
+          reactableOutput("resumen")
         )
     ),
     mainPanel(width = 9,
