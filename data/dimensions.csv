@@ -1,0 +1,140 @@
+"Dimensión","DIM_LAB","Indicador","IND_LAB","Tipo","ACTIVA","CLASE","Fuente de datos","VAR","VAR2","Notas"
+"Origen social","Origen","Porcentaje de alumnos sin pase","% Alumnos sin pase","x",1,"s","RA2017 TRAY","SINP","SINP",NA
+"Origen social","Origen","Promedio institucional de
+nivel de estudio de la madre","Índice educ. de la madre","x",1,"s","TESBA2018 - Estudiante","EDU_MAD","EDU_MAD","[1]"
+"Origen social","Origen","Porcentaje de alumnos que su
+madre terminó una carrera de
+Nivel Superior","% Madres con est. superior","x",1,"s","TESBA2018 - Estudiante","EDU_SUP","EDU_SUP","[1]"
+"Origen social","Origen","Porcentaje de alumnos que su
+madre tiene sólo hasta Nivel
+Primario","% Madres sólo con est. primario","x",1,"s","TESBA2018 - Estudiante","EDU_PRI","EDU_PRI","[1]"
+"Origen social","Origen","Promedio institucional de
+hacinamiento en los hogares de
+los estudiantes","% Hog. Hacinados","x",1,"s","TESBA2018 - Estudiante","HOG_HAC","HOG_HAC","[1]"
+"Origen social","Origen","Porcentaje de alumnos con
+acceso a internet en el hogar","% Hog.  con internet","x",1,"s","TESBA2018 - Estudiante","HOG_INET","HOG_INET","[1]"
+"Origen social","Origen","Porcentaje de alumnos con
+bibliotecas grandes en el
+hogar","% Hog.  con bibliot. Grande","x",1,"s","TESBA2018 - Estudiante","HOG_BIBLIO","HOG_BIBLIO","[1]"
+"Origen social","Origen","Porcentaje de alumnos que
+reciben ayuda alimentaria
+escolar gratuita.","% Alumnos con vianda","x",1,"s","RA2018 POB","VIANDA","VIANDA",NA
+"Origen social","Origen","Porcentaje de alumnos
+extranjeros sudamericanos","% Alumnos migrante sudamericano","x",1,"s","RA2018 POB","MIG_SUD","MIG_SUD",NA
+"Resultados y calidad educativa","Rendimiento","Porcentaje de alumnos
+repitentes del 1er ciclo del
+nivel","% Alumnos repetidores 1er Ciclo","x",1,"s","RA2018 MAT","C1_REP","C1_REP",NA
+"Resultados y calidad educativa","Rendimiento","Porcentaje de alumnos
+repitentes del 2do ciclo del
+nivel","% Alumnos repetidores 2do Ciclo","x",1,"s","RA2018 MAT","C2_REP","C2_REP","[2]"
+"Resultados y calidad educativa","Rendimiento","Porcentaje de alumnos con
+sobreedad en el 1er ciclo del
+nivel","% Alumnos con sobreedad 1er Ciclo","x",1,"s","RA2018 MAT","C1_SOB","C1_SOB","[2]"
+"Resultados y calidad educativa","Rendimiento","Porcentaje de alumnos con
+sobreedad en el 2do ciclo del
+nivel","% Alumnos con sobreedad 2do Ciclo","x",1,"s","RA2018 MAT","C2_SOB","C2_SOB","[2]"
+"Resultados y calidad educativa","Rendimiento","Porcentaje de alumnos no
+promovido en el 1er ciclo del
+nivel","% Alumnos no promovidos con examen 1er Ciclo","x",1,"s","RA2018 TRAY","C1_NOPRO","C1_NOPRO","[2]"
+"Resultados y calidad educativa","Rendimiento","Porcentaje de alumnos no
+promovido en el 2er ciclo del
+nivel","% Alumnos no promovidos con examen 2do Ciclo","x",1,"s","RA2018 TRAY","C2_NOPRO","C2_NOPRO","[2]"
+"Resultados y calidad educativa","Rendimiento","Porcentaje de alumnos que
+dejaron el curso con pase","% Alumnos salidos con pase","x",1,"s","RA2018 TRAY","CONP","CONP","[2]"
+"Resultados y calidad educativa","Rendimiento","Porcentaje de alumnos que
+repitieron en el nivel
+primario","% Alumno que repitieron primaria","x",1,"s","TESBA2018 - Estudiante","REPE_PRIM","REPE_PRIM","[2]"
+"Resultados y calidad educativa","Rendimiento","Porcentaje de alumnos que
+cursaron parte del nivel en
+otro establecimiento","% Alumno que cambiaron de escuela","x",1,"s","TESBA2018 - Estudiante","CAMBIO","CAMBIO","[2]"
+"Resultados y calidad educativa","Rendimiento","Porcentaje de alumnos con
+niveles altos de ausentismo","% Alumnos con auscentismo alto","x",1,"s","TESBA2018 - Estudiante","RIESGO","RIESGO",NA
+"Resultados y calidad educativa","Rendimiento","Porcentaje de alumnos que
+ingresan a cursar durante el
+transcurso del ciclo lectivo","% Alumnos con ingreso tardío","x",1,"s","RA2018 TRAY","INTAR","INTAR",NA
+"Resultados y calidad educativa","Rendimiento","Media de los resultados
+obtenidos en la evaluación
+FEPBA/TESBA de matemáticas","Promedio FEPBA Matemáticas","x",1,"s","TESBA2018","MAT_MEDIA","MAT_MEDIA","[1]"
+"Heterogeneidad o mixtura escolar","Homogeneidad","Desviación estándar del nivel
+de estudio de la madre","Desvío st. índice educ. de la madre","x",1,"s","TESBA2018 - Estudiante","EDU_MAD_SD","EDU_MAD_SD","[1]"
+"Heterogeneidad o mixtura escolar","Homogeneidad","Índice de Diversidad Local de
+Shannon","Índice de Diversidad Local","x",1,"s","TESBA2018 - Estudiante","L_SW","L_SW","[1]"
+"Heterogeneidad o mixtura escolar","Homogeneidad","Índice de Entropía Local","Índice de Entropía Local","x",1,"s","TESBA2018 - Estudiante","H2","H2","[1]"
+"Heterogeneidad o mixtura escolar","Homogeneidad","Ínidice de Interacción Local
+de Simpson","Ínidice de Interacción Local","x",1,"s","TESBA2018 - Estudiante","I_S","I_S","[1]"
+"Heterogeneidad o mixtura escolar","Homogeneidad","Índice de información mutua","Índice de información mutua","x",1,"s","TESBA2018 - Estudiante","M","M","[1]"
+"Origen social","Origen","Porcentaje de alumnos
+extranjeros europeos","% Alumnos migrante europeo","Sup.",2,"s","RA2018 POB","MIG_EUR","MIG_EUR",NA
+"Origen social","Origen","Porcentaje de alumnos que
+señalan que los responsables
+adultos no acompañaron su
+trayectoria educativa","Índice de acomp. fliar","Sup.",2,"s","TESBA2018 - Estudiante","ATENCION","ATENCION",NA
+"Origen social","Origen","Cociente de ubicación para
+estudiantes con madre con
+primario terminado","Cociente de ubicación madres con primario","Sup. Cuali.",2,"n","TESBA2018 - Estudiante","LQ_PRI","LQ_SINPRI","[1]"
+"Origen social","Origen","Cociente de ubicación para
+estudiantes con madre con
+estudios superiores terminados","Cociente de ubicación madres con superior","Sup. Cuali.",2,"n","TESBA2018 - Estudiante","LQ_SUP","LQ_SUP","[1]"
+"Origen social","Origen","Presencia y características
+de la asociación cooperadora
+(sólo pública)","Cooperadora","Sup. Cuali.",2,"n","RA2018 ESTRUC","COOP","COOP",NA
+"Origen social","Origen","Existencia de subvención
+estatal (sólo privada)","Existencia de subsidio estatal (privada)","Sup. Cuali.",2,"n","RA2018 ESTRUC","SUBS","SUBS",NA
+"Resultados y calidad educativa","Rendimiento","Porcentaje de alumnos
+promovido con examen en el 1er
+ciclo del nivel","% Alumnos promovidos con examen 1er Ciclo","Sup.",2,"s","RA2018 TRAY","C1_PROEX","C1_PROEX",NA
+"Resultados y calidad educativa","Rendimiento","Porcentaje de alumnos
+promovido con examen en el 2er
+ciclo del nivel","% Alumnos promovidos con examen 2do Ciclo","Sup.",2,"s","RA2018 TRAY","C2_PROEX","C2_PROEX","[1]"
+"Resultados y calidad educativa","Rendimiento","Proporción de cargos/hs
+suplentes","% Cargos suplentes","Sup.",2,"s","RA2018 CARG","SUP","SUP",NA
+"Resultados y calidad educativa","Rendimiento","Eficacia del nivel","Eficacia de graduación","Sup.",2,"s","RA2018 TRAY","EFIC","EFIC",NA
+"Resultados y calidad educativa","Rendimiento","Pendiente de la regresión
+cuadrática para la
+distribución porcentual de
+alumnos","Pendiente de desgramaniento","Sup.",2,"s","RA2018 MAT","PEND","PEND",NA
+"Heterogeneidad o mixtura escolar","Homogeneidad","Desviación estándar de
+resultados en evaluación
+FEPBA /TESBA de matemáticas","Desvío st. promedio FEPBA Matemáticas","Sup.",2,"s","TESBA2018","MAT_DESVIO","MAT_DESVIO","[1]"
+"Estatus urbano de la ubicación del establecimiento","Ubicación","Status de la zona de
+emplazamiento","Índice de Status Locacional","Sup.",2,"s","CENSO2010","STATUS","STATUS",NA
+"Estatus urbano de la ubicación del establecimiento","Ubicación","Centralidad / accesibilidad de
+la institución","Índice de Accesibilidad Locacional","Sup.",2,"s","REGISTRO GCBA","ACCESIBILIDAD","ACCESIBILIDAD",NA
+"Estatus urbano de la ubicación del establecimiento","Ubicación","Tipo de entorno urbano
+en el que está ubicado el
+establecimiento","Tipo de Entorno Urbano","Sup. Cuali.",2,"n","CENSO2010","TIPO_HABITAT","TIPO_HABITAT",NA
+"Condiciones referidas a la estructura y recursos institucionales","Estructura","Hacinamiento escolar","Promedio de Alumnos por curso","Sup.",2,"s","RA2018 MAT","HAC_ESC","HAC_ESC",NA
+"Condiciones referidas a la estructura y recursos institucionales","Estructura","Tamaño del establecimiento
+(Número de alumnos)","Número de estudiantes","Sup.",2,"s","RA2018 MAT","n","n",NA
+"Condiciones referidas a la estructura y recursos institucionales","Estructura","Índice de recursos materiales
+e infraestructura","Índice de recursos materiales","Sup.",2,"s","RA2018 ESTRUC","RECURSO","RECURSO",NA
+"Condiciones referidas a la estructura y recursos institucionales","Estructura","Proporción de cargos/hs en
+condición titular (tareas
+seleccionadas)","% Titularización","Sup.",2,"s","RA2018 CARG","TIT","TIT",NA
+"Condiciones referidas a la estructura y recursos institucionales","Estructura","Cantidad de cargos de
+personal de apoyo y asistencia
+pedagógica por cada 100
+alumnos","Docentes asistente x alumno","Sup.",2,"s","RA2018, RA2017, RA2016, RA2015 CARG","ASI","ASI","[3]"
+"Condiciones referidas a la estructura y recursos institucionales","Estructura","Cantidad de no-docentes cada
+100 alumnos","No Docentes x alumno","Sup.",2,"s","RA2018, RA2017, RA2016, RA2015 CARG","NODOC","NODOC","[3]"
+"Características de la oferta educativa y pedagógica","Oferta","Escuela plurilingüe","% Alumno con educ multilingüe","Sup.",2,"s","RA2018 POB","IDIOMA_MULTI","IDIOMA_MULTI",NA
+"Características de la oferta educativa y pedagógica","Oferta","Cantidad de cargos/hs docentes
+frente a curso cada 100
+alumnos","Docentes x alumno","Sup.",2,"s","RA2018, RA2017, RA2016, RA2015 CARG","DOC","DOC","[3]"
+"Características de la oferta educativa y pedagógica","Oferta","Cantidad de cargos/hs docentes
+frente a curso no POF cada 100
+alumnos","Docentes no-POF x alumno","Sup.",2,"s","RA2018, RA2017, RA2016, RA2015 CARG","NOPOF","NOPOF","[3]"
+"Características de la oferta educativa y pedagógica","Oferta","Proporción de varones","% Alumnos varones","Sup.",2,"s","RA2018 MAT","VAR","VAR",NA
+"Características de la oferta educativa y pedagógica","Oferta","Continuidad pedagógica con el
+nivel anterior","Continuidad institucional con nivel anterior","Sup. Cuali.",2,"n","REGISTRO GCBA","CONTINUIDAD_PRE","CONTINUIDAD_PRE",NA
+"Características de la oferta educativa y pedagógica","Oferta","Tipo de gestión del
+establecimiento","Sector de gestión","Sup. Cuali.",2,"n","REGISTRO GCBA","SECTOR","SECTOR",NA
+"Características de la oferta educativa y pedagógica","Oferta","Tipo de jornada","Turno Doble","Sup. Cuali.",2,"n","RA2018 MAT","T_DOBLE","T_DOBLE",NA
+"Características de la oferta educativa y pedagógica","Oferta","Tipo de jornada","Turno Mañana","Sup. Cuali.",2,"n","RA2018 MAT","T_MAÑANA","T_MAÑANA",NA
+"Características de la oferta educativa y pedagógica","Oferta","Tipo de jornada","Turno Tarde","Sup. Cuali.",2,"n","RA2018 MAT","T_TARDE","T_TARDE",NA
+"Características de la oferta educativa y pedagógica","Oferta","Tipo de jornada","Turno Vespertino","Sup. Cuali.",2,"n","RA2018 MAT","T_VESPER","T_VESPER",NA
+"Características de la oferta educativa y pedagógica","Oferta","Tipo de jornada","Turno Noche","Sup. Cuali.",2,"n","RA2018 MAT","T_NOCHE","T_NOCHE",NA
+"Características de la oferta educativa y pedagógica","Oferta","Tipo de título otorgado","Título Bachiller","Sup. Cuali.",2,"n","RA2018 MAT","TIT_BACHILLER","TIT_BACHILLER",NA
+"Características de la oferta educativa y pedagógica","Oferta","Tipo de título otorgado","Título Bilingüe","Sup. Cuali.",2,"n","RA2018 MAT","TIT_BILINGÜE","TIT_BILINGÜE",NA
+"Características de la oferta educativa y pedagógica","Oferta","Tipo de título otorgado","Título Comercial","Sup. Cuali.",2,"n","RA2018 MAT","TIT_COMERCIAL","TIT_COMERCIAL",NA
+"Características de la oferta educativa y pedagógica","Oferta","Tipo de título otorgado","Título Técnico","Sup. Cuali.",2,"n","RA2018 MAT","TIT_TECNICO","TIT_TECNICO",NA
